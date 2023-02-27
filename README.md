@@ -1,7 +1,7 @@
 ### My portfolio website
 
 - This website showcases my career.
-  - Website is based on Dream-coding Ellie's lecture. (Link: https://academy.dream-coding.com/)
+  - Website is based on llie's lecture.
 
 ### Release Note
 

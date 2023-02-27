@@ -1,6 +1,7 @@
 ### My portfolio website
 
 - This website showcases my career.
+  - Website is made by Dream-coding lecturer, Ellie. (Link: https://academy.dream-coding.com/)
 
 ### Release Note
 

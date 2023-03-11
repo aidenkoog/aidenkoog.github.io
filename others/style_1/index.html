@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Webpage for AidenKooG." />
+    <meta name="author" content="AidenKoo" />
+    <title>Another styled homepage</title>
+    <link rel="icon" type="image/png" href="images/icons8-globe-24.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Gothic:wght@400;700;800&family=Open+Sans:wght@400;600;700&family=Sunflower:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Gothic:wght@400;700;800&family=Open+Sans:wght@400;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sunflower:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/46cad14323.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js" defer></script>
+    <style>
+      * {
+        font-family: "Nanum Gothic", sans-serif;
+        /* font-family: "Poppins", sans-serif; */
+      }
+      p {
+        line-height: 50px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <a class="navbar__logo__link" href="" data-type="logo">
+          <img
+            class="navbar__logo__img"
+            src="./images/logo.png"
+            alt="Homepage Logo Image"
+          />
+        </a>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item active" data-link="#about">About</li>
+        <li class="navbar__menu__item" data-link="#work">Our Services</li>
+        <li class="navbar__menu__item" data-link="#contact">Contacts</li>
+      </ul>
+
+      <!-- Toggle Button -->
+      <button class="navbar__toggle-btn">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- About -->
+    <section
+      id="about"
+      class="section"
+      style="
+        background-color: #a6866b;
+        padding-top: 120px;
+        padding-bottom: 70px;
+      "
+    >
+      <div class="about__container">
+        <h1 class="about__title">About-Title</h1>
+        <br />
+        <br />
+        <p class="about__introduction">
+          Write the English version of the message corresponding to the current section.
+        </p>
+        <br />
+        <p class="about__introduction__korean">
+          현재 섹션에 해당하는 한글 버전의 메세지를 작성한다.
+        </p>
+        <br />
+        <br />
+        <br />
+        <p class="about__introduction">
+          Write the English version of the message corresponding to the current section.
+        </p>
+        <br />
+        <p class="about__introduction__korean">
+          현재 섹션에 해당하는 한글 버전의 메세지를 작성한다.
+        </p>
+      </div>
+    </section>
+
+    <!-- Our Services -->
+    <section id="work" class="section" style="background-color: #12735a">
+      <div class="section__container">
+        <h1 class="about__title">Service-Title</h1>
+        <br />
+        <a href="https://github.com/aidenkoog/aidenkoog.github.io" target="_blank" data-type="service">
+          <img
+            class="work__title__logo"
+            src="./images/logo.png"
+            alt="Service logo image"
+          />
+        </a>
+        <br />
+        <br />
+        <br />
+        <br />
+        <p class="about__introduction">
+          Write the English version of the message corresponding to the current section.
+        </p>
+        <br />
+        <p class="about__introduction__korean">
+          현재 섹션에 해당하는 한글 버전의 메세지를 작성한다.
+        </p>
+        <br />
+        <a
+          href="https://github.com/aidenkoog/aidenkoog.github.io"
+          class="service__link__btn--link__container"
+          target="_blank"
+          data-type="service"
+        >
+          <div class="service__link__btn">
+            <p class="service__link__btn-text">Service ➭</p>
+          </div>
+        </a>
+        <br />
+        <br />
+        <div class="work__projects">
+          <a
+            href="https://github.com/aidenkoog/aidenkoog.github.io"
+            class="project"
+            target="_blank"
+            data-type="service"
+          >
+            <img
+              src="images/service_1.png"
+              alt="Service_1_image"
+              class="project__img"
+            />
+            <div class="project__description">
+              <h3>Service</h3>
+              <span>https://github.com/aidenkoog/aidenkoog.github.io</span>
+            </div>
+          </a>
+          <a
+            href="https://github.com/aidenkoog/aidenkoog.github.io"
+            class="project"
+            target="_blank"
+            data-type="service"
+          >
+            <img
+              src="images/service_2.png"
+              alt="Service_2_image"
+              class="project__img"
+            />
+            <div class="project__description">
+              <h3>Service</h3>
+              <span>https://github.com/aidenkoog/aidenkoog.github.io</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <h1 class="about__title">THANK YOU</h1>
+      <br />
+      <h2 class="about__introduction">
+        Write the English version of the message corresponding to the current section.
+      </h2>
+      <br />
+      <h2 class="contact__title__korean">
+        현재 섹션에 해당하는 한글 버전의 메세지를 작성한다.
+      </h2>
+      <br />
+      <br />
+      <a target="_blank" href="mailto:k037686@gmail.com?subject=안녕하세요.">
+        <h2 class="contact__email">k037686@gmail.com</h2>
+      </a>
+      <div class="contact__links">
+        <a target="_blank" href="https://github.com/aidenkoog/">
+          <i class="fa-solid fa-user"></i>
+        </a>
+        <a target="_blank" href="mailto:k037686@gmail.com?subject=안녕하세요.">
+          <i class="fa-regular fa-envelope"></i>
+        </a>
+      </div>
+      <br />
+      <p class="contact__rights">
+        South Korea
+      </p>
+      <p class="contact__rights">2023 AidenKooG - All rights reserved</p>
+      <br />
+      <br />
+    </section>
+
+    <!-- Arrow up -->
+    <button class="arrow-up">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+  </body>
+</html>

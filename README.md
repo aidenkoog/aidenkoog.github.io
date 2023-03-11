@@ -44,6 +44,7 @@
 - 2023/02/24 : Update my skills content.
 - 2023/02/24 : Applied dynamic selection about navigation bar.
 - 2023/03/11 : Added another styled home page source files.
+- 2023/03/11 : Deleted macOS related files (unused files) / Added .gitignore.
 
 #### Link:
 

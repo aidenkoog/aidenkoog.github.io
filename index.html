@@ -1,807 +1,336 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aiden's Home</title>
-    <meta name="description" content="Portfolio for software engineer Aiden" />
-    <meta name="author" content="Aiden" />
-    <link rel="icon" type="image/png" href="images/icons8-globe-24.png" />
-    <script
-      src="https://kit.fontawesome.com/46cad14323.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <script src="main.js" defer></script>
-  </head>
 
-  <body>
-    <!-- Navbar -->
-    <nav id="navbar">
-      <div class="navbar__logo">
-        <a href="#"><i class="fa-solid fa-fire"></i> Aiden</a>
-      </div>
-      <ul class="navbar__menu">
-        <li class="navbar__menu__item active" data-link="#home">Home</li>
-        <li class="navbar__menu__item" data-link="#about">About</li>
-        <li class="navbar__menu__item" data-link="#skills">Skills</li>
-        <li class="navbar__menu__item" data-link="#work">My Work</li>
-        <li class="navbar__menu__item" data-link="#testimonials">
-          Award & Testimonials
-        </li>
-        <li class="navbar__menu__item" data-link="#contact">Contact</li>
-      </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aiden's Home</title>
+  <meta name="description" content="Portfolio for software engineer Aiden" />
+  <meta name="author" content="Aiden" />
+  <link rel="icon" type="image/png" href="images/icons8-globe-24.png" />
+  <script src="https://kit.fontawesome.com/46cad14323.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="main.js" defer></script>
+</head>
 
-      <!-- Toggle Button -->
-      <button class="navbar__toggle-btn">
-        <i class="fa-solid fa-bars"></i>
-      </button>
-    </nav>
+<body>
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="navbar__logo">
+      <a href="#"><i class="fa-solid fa-fire"></i> Aiden</a>
+    </div>
+    <ul class="navbar__menu">
+      <li class="navbar__menu__item active" data-link="#home">Home</li>
+      <li class="navbar__menu__item" data-link="#about">About</li>
+      <li class="navbar__menu__item" data-link="#skills">Skills</li>
+      <li class="navbar__menu__item" data-link="#work">My Work</li>
+      <li class="navbar__menu__item" data-link="#testimonials">
+        Award & Testimonials
+      </li>
+      <li class="navbar__menu__item" data-link="#contact">Contact</li>
+    </ul>
 
-    <!-- Home -->
-    <section id="home">
-      <div class="home__container">
-        <img
-          src="images/my_profile.png"
-          alt="Aiden's profile photo"
-          class="home__avatar"
-        />
-        <h1 class="home__title">Hello, <br />I'm Aiden, Software Engineer</h1>
-        <h2 class="home__description">
-          Software expert capable of developing both web frontend and mobile
-          apps.
-        </h2>
-        <button class="home__contact">Contact Me</button>
-      </div>
-    </section>
-
-    <!-- About -->
-    <section id="about" class="section section__container">
-      <h1>About Me</h1>
-      <p>
-        I have been working as a software developer for about 8 years. We have
-        mainly developed Android applications that are loaded on Mobile and OTT,
-        and have experience in launching and maintaining them. And recently, I
-        am developing Android and iOS apps using React Native, Flutter as well
-        as web front-end development.
-      </p>
-      <div class="about__majors">
-        <div class="major">
-          <div class="major__icon">
-            <i class="fab fa-html5"></i>
-          </div>
-          <h2 class="major__title">Front-end</h2>
-          <div class="major__description">
-            HTML, CSS, Javascript, Typescript, <br />React, Vue, Angular, Web
-            APIs
-          </div>
-        </div>
-        <div class="major">
-          <div class="major__icon">
-            <i class="fa-solid fa-mobile-screen"></i>
-          </div>
-          <h2 class="major__title">Mobile-Native</h2>
-          <div class="major__description">
-            Android, iOS, <br />Kotlin, Java, Swift
-          </div>
-        </div>
-        <div class="major">
-          <div class="major__icon">
-            <i class="fa-solid fa-mobile"></i>
-          </div>
-          <h2 class="major__title">Mobile-Cross-Platform</h2>
-          <div class="major__description">
-            React Native, Flutter, <br />Javascript, Typescript, Dart
-          </div>
-        </div>
-      </div>
-      <div class="about__jobs">
-        <div class="job">
-          <i class="fa-solid fa-building"></i>
-          <div class="job__description">
-            <p class="job__name">
-              Currently working at Byclip Inc. as Software Engineer
-            </p>
-            <p class="job__period">2022 Sept - Until now</p>
-          </div>
-        </div>
-        <div class="job">
-          <i class="fa-regular fa-building"></i>
-          <div class="job__description">
-            <p class="job__name">Working at Navien Inc. as Software Engineer</p>
-            <p class="job__period">2021 Aug - 2022 Sept</p>
-          </div>
-        </div>
-        <div class="job">
-          <i class="fa-regular fa-building"></i>
-          <div class="job__description">
-            <p class="job__name">Working at Humax Inc. as Software Engineer</p>
-            <p class="job__period">2014 Jan - 2021 Jul</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Skills -->
-    <section id="skills" class="section">
-      <div class="section__container">
-        <h1>Skills</h1>
-        <h2>Skills & Attributes</h2>
-        <p>
-          I have an understanding of the entire software life cycle, am
-          interested in learning new things, and can develop in a team
-          environment or alone. They are good at planning and documenting, and
-          have a concept of punctuality in projects and group life. And I'm
-          always trying to manage my stress to complete the project. I think the
-          basis for everything is consistency and repetition. I try to have fun
-          with what I do through constant repetition.
-        </p>
-        <div class="skillset">
-          <div class="skillset__left">
-            <h3 class="skillset__title">Skills</h3>
-            <div class="skill">
-              <div class="skill__description">
-                <span class="skill__description__object">HTML</span>
-                <span>99%</span>
-              </div>
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 99%"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill__description">
-                <span class="skill__description__object">CSS</span>
-                <span>99%</span>
-              </div>
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 99%"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill__description">
-                <span class="skill__description__object">Javascript</span>
-                <span>99%</span>
-              </div>
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 99%"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill__description">
-                <span class="skill__description__object">Typescript</span>
-                <span>99%</span>
-              </div>
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 99%"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill__description">
-                <span class="skill__description__object">Kotlin</span>
-                <span>99%</span>
-              </div>
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 99%"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill__description">
-                <span class="skill__description__object">Java</span>
-                <span>99%</span>
-              </div>
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 99%"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill__description">
-                <span class="skill__description__object">Swift</span>
-                <span>99%</span>
-              </div>
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 99%"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill__description">
-                <span class="skill__description__object">React</span>
-                <span>99%</span>
-              </div>
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 99%"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill__description">
-                <span class="skill__description__object">React-Native</span>
-                <span>99%</span>
-              </div>
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 99%"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill__description">
-                <span class="skill__description__object">Android</span>
-                <span>99%</span>
-              </div>
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 99%"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill__description">
-                <span class="skill__description__object">iOS</span>
-                <span>99%</span>
-              </div>
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 99%"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill__description">
-                <span class="skill__description__object">Vue</span>
-                <span>49%</span>
-              </div>
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 49%"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill__description">
-                <span class="skill__description__object">Angular</span>
-                <span>49%</span>
-              </div>
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 49%"></div>
-              </div>
-            </div>
-          </div>
-          <div class="skillset__right">
-            <div class="tools">
-              <h3 class="skillset__title">Tools</h3>
-              <ul class="tools__list">
-                <li><span>Android Studio</span></li>
-                <li><span>Visual Studio Code</span></li>
-                <li><span>Xcode</span></li>
-                <li><span>IntelliJ</span></li>
-                <li><span>Postman</span></li>
-                <li><span>MySQL</span></li>
-              </ul>
-            </div>
-            <div class="etc">
-              <h3 class="skillset__title">Etc</h3>
-              <ul class="etc__list">
-                <li><span>Git</span></li>
-                <li><span>GitHub / Bitbucket</span></li>
-                <li><span>Jira</span></li>
-                <li><span>Confluence</span></li>
-                <li><span>Slack</span></li>
-                <li><span>Zeplin</span></li>
-                <li><span>Pigma</span></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Work -->
-    <section id="work" class="section">
-      <div class="section__container">
-        <h1>My Work</h1>
-        <h3>Projects</h3>
-        <div class="work__categories">
-          <button class="category__btn selected" data-filter="*">
-            All<span class="category__count">23</span>
-          </button>
-          <button class="category__btn" data-filter="front-end">
-            Front-end<span class="category__count">5</span>
-          </button>
-          <button class="category__btn" data-filter="mobile-native">
-            Mobile-Native<span class="category__count">8</span>
-          </button>
-          <button class="category__btn" data-filter="mobile-cross-platform">
-            Mobile-Cross-Platform<span class="category__count">10</span>
-          </button>
-        </div>
-
-        <div class="work__projects">
-          <a
-            href="https://github.com/aidenkoog"
-            class="project"
-            target="_blank"
-            data-type="front-end"
-          >
-            <img
-              src="images/projects/project.png"
-              alt="MyProject"
-              class="project__img"
-            />
-            <div class="project__description">
-              <h3>Github</h3>
-              <span
-                >Coding with HTML, CSS, Javascript, Typescript, React, Vue and
-                Angular</span
-              >
-            </div>
-          </a>
-          <a
-            href="https://github.com/aidenkoog"
-            class="project"
-            target="_blank"
-            data-type="front-end"
-          >
-            <img
-              src="images/projects/project.png"
-              alt="MyProject"
-              class="project__img"
-            />
-            <div class="project__description">
-              <h3>Github</h3>
-              <span
-                >Coding with HTML, CSS, Javascript, Typescript, React, Vue and
-                Angular</span
-              >
-            </div>
-          </a>
-          <a
-            href="https://github.com/aidenkoog"
-            class="project"
-            target="_blank"
-            data-type="front-end"
-          >
-            <img
-              src="images/projects/project.png"
-              alt="MyProject"
-              class="project__img"
-            />
-            <div class="project__description">
-              <h3>Github</h3>
-              <span
-                >Coding with HTML, CSS, Javascript, Typescript, React, Vue and
-                Angular</span
-              >
-            </div>
-          </a>
-          <a
-            href="https://github.com/aidenkoog"
-            class="project"
-            target="_blank"
-            data-type="front-end"
-          >
-            <img
-              src="images/projects/project.png"
-              alt="MyProject"
-              class="project__img"
-            />
-            <div class="project__description">
-              <h3>Github</h3>
-              <span
-                >Coding with HTML, CSS, Javascript, Typescript, React, Vue and
-                Angular</span
-              >
-            </div>
-          </a>
-          <a
-            href="https://github.com/aidenkoog"
-            class="project"
-            target="_blank"
-            data-type="front-end"
-          >
-            <img
-              src="images/projects/project.png"
-              alt="MyProject"
-              class="project__img"
-            />
-            <div class="project__description">
-              <h3>Github</h3>
-              <span
-                >Coding with HTML, CSS, Javascript, Typescript, React, Vue and
-                Angular</span
-              >
-            </div>
-          </a>
-          <a
-            href="https://github.com/aidenkoog"
-            class="project"
-            target="_blank"
-            data-type="mobile-native"
-          >
-            <img
-              src="images/projects/project.png"
-              alt="MyProject"
-              class="project__img"
-            />
-            <div class="project__description">
-              <h3>Github</h3>
-              <span>Coding with Kotlin, Swift, Java, Android and iOS</span>
-            </div>
-          </a>
-          <a
-            href="https://github.com/aidenkoog"
-            class="project"
-            target="_blank"
-            data-type="mobile-native"
-          >
-            <img
-              src="images/projects/project.png"
-              alt="MyProject"
-              class="project__img"
-            />
-            <div class="project__description">
-              <h3>Github</h3>
-              <span>Coding with Kotlin, Swift, Java, Android and iOS</span>
-            </div>
-          </a>
-          <a
-            href="https://github.com/aidenkoog"
-            class="project"
-            target="_blank"
-            data-type="mobile-native"
-          >
-            <img
-              src="images/projects/project.png"
-              alt="MyProject"
-              class="project__img"
-            />
-            <div class="project__description">
-              <h3>Github</h3>
-              <span>Coding with Kotlin, Swift, Java, Android and iOS</span>
-            </div>
-          </a>
-          <a
-            href="https://github.com/aidenkoog"
-            class="project"
-            target="_blank"
-            data-type="mobile-native"
-          >
-            <img
-              src="images/projects/project.png"
-              alt="MyProject"
-              class="project__img"
-            />
-            <div class="project__description">
-              <h3>Github</h3>
-              <span>Coding with Kotlin, Swift, Java, Android and iOS</span>
-            </div>
-          </a>
-          <a
-            href="https://github.com/aidenkoog"
-            class="project"
-            target="_blank"
-            data-type="mobile-native"
-          >
-            <img
-              src="images/projects/project.png"
-              alt="MyProject"
-              class="project__img"
-            />
-            <div class="project__description">
-              <h3>Github</h3>
-              <span>Coding with Kotlin, Swift, Java, Android and iOS</span>
-            </div>
-          </a>
-          <a
-            href="https://github.com/aidenkoog"
-            class="project"
-            target="_blank"
-            data-type="mobile-native"
-          >
-            <img
-              src="images/projects/project.png"
-              alt="MyProject"
-              class="project__img"
-            />
-            <div class="project__description">
-              <h3>Github</h3>
-              <span>Coding with Kotlin, Swift, Java, Android and iOS</span>
-            </div>
-          </a>
-          <a
-            href="https://github.com/aidenkoog"
-            class="project"
-            target="_blank"
-            data-type="mobile-native"
-          >
-            <img
-              src="images/projects/project.png"
-              alt="MyProject"
-              class="project__img"
-            />
-            <div class="project__description">
-              <h3>Github</h3>
-              <span>Coding with Kotlin, Swift, Java, Android and iOS</span>
-            </div>
-          </a>
-          <a
-            href="https://github.com/aidenkoog"
-            class="project"
-            target="_blank"
-            data-type="mobile-native"
-          >
-            <img
-              src="images/projects/project.png"
-              alt="MyProject"
-              class="project__img"
-            />
-            <div class="project__description">
-              <h3>Github</h3>
-              <span>Coding with Kotlin, Swift, Java, Android and iOS</span>
-            </div>
-          </a>
-          <a
-            href="https://github.com/aidenkoog"
-            class="project"
-            target="_blank"
-            data-type="mobile-cross-platform"
-          >
-            <img
-              src="images/projects/project.png"
-              alt="MyProject"
-              class="project__img"
-            />
-            <div class="project__description">
-              <h3>Github</h3>
-              <span
-                >Coding with Typescript, Javascript, Dart, React-Native and
-                Flutter</span
-              >
-            </div>
-          </a>
-          <a
-            href="https://github.com/aidenkoog"
-            class="project"
-            target="_blank"
-            data-type="mobile-cross-platform"
-          >
-            <img
-              src="images/projects/project.png"
-              alt="MyProject"
-              class="project__img"
-            />
-            <div class="project__description">
-              <h3>Github</h3>
-              <span
-                >Coding with Typescript, Javascript, Dart, React-Native and
-                Flutter</span
-              >
-            </div>
-          </a>
-          <a
-            href="https://github.com/aidenkoog"
-            class="project"
-            target="_blank"
-            data-type="mobile-cross-platform"
-          >
-            <img
-              src="images/projects/project.png"
-              alt="MyProject"
-              class="project__img"
-            />
-            <div class="project__description">
-              <h3>Github</h3>
-              <span
-                >Coding with Typescript, Javascript, Dart, React-Native and
-                Flutter</span
-              >
-            </div>
-          </a>
-          <a
-            href="https://github.com/aidenkoog"
-            class="project"
-            target="_blank"
-            data-type="mobile-cross-platform"
-          >
-            <img
-              src="images/projects/project.png"
-              alt="MyProject"
-              class="project__img"
-            />
-            <div class="project__description">
-              <h3>Github</h3>
-              <span
-                >Coding with Typescript, Javascript, Dart, React-Native and
-                Flutter</span
-              >
-            </div>
-          </a>
-          <a
-            href="https://github.com/aidenkoog"
-            class="project"
-            target="_blank"
-            data-type="mobile-cross-platform"
-          >
-            <img
-              src="images/projects/project.png"
-              alt="MyProject"
-              class="project__img"
-            />
-            <div class="project__description">
-              <h3>Github</h3>
-              <span
-                >Coding with Typescript, Javascript, Dart, React-Native and
-                Flutter</span
-              >
-            </div>
-          </a>
-          <a
-            href="https://github.com/aidenkoog"
-            class="project"
-            target="_blank"
-            data-type="mobile-cross-platform"
-          >
-            <img
-              src="images/projects/project.png"
-              alt="MyProject"
-              class="project__img"
-            />
-            <div class="project__description">
-              <h3>Github</h3>
-              <span
-                >Coding with Typescript, Javascript, Dart, React-Native and
-                Flutter</span
-              >
-            </div>
-          </a>
-          <a
-            href="https://github.com/aidenkoog"
-            class="project"
-            target="_blank"
-            data-type="mobile-cross-platform"
-          >
-            <img
-              src="images/projects/project.png"
-              alt="MyProject"
-              class="project__img"
-            />
-            <div class="project__description">
-              <h3>Github</h3>
-              <span
-                >Coding with Typescript, Javascript, Dart, React-Native and
-                Flutter</span
-              >
-            </div>
-          </a>
-          <a
-            href="https://github.com/aidenkoog"
-            class="project"
-            target="_blank"
-            data-type="mobile-cross-platform"
-          >
-            <img
-              src="images/projects/project.png"
-              alt="MyProject"
-              class="project__img"
-            />
-            <div class="project__description">
-              <h3>Github</h3>
-              <span
-                >Coding with Typescript, Javascript, Dart, React-Native and
-                Flutter</span
-              >
-            </div>
-          </a>
-          <a
-            href="https://github.com/aidenkoog"
-            class="project"
-            target="_blank"
-            data-type="mobile-cross-platform"
-          >
-            <img
-              src="images/projects/project.png"
-              alt="MyProject"
-              class="project__img"
-            />
-            <div class="project__description">
-              <h3>Github</h3>
-              <span
-                >Coding with Typescript, Javascript, Dart, React-Native,
-                Flutter</span
-              >
-            </div>
-          </a>
-          <a
-            href="https://github.com/aidenkoog"
-            class="project"
-            target="_blank"
-            data-type="mobile-cross-platform"
-          >
-            <img
-              src="images/projects/project.png"
-              alt="MyProject"
-              class="project__img"
-            />
-            <div class="project__description">
-              <h3>Github</h3>
-              <span
-                >Coding with Typescript, Javascript, Dart, React-Native,
-                Flutter</span
-              >
-            </div>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Tesimonials -->
-    <section id="testimonials" class="section">
-      <div class="section__container">
-        <h1>Award & Testimonials</h1>
-        <h3>See what they say about me</h3>
-        <div class="testimonials">
-          <div class="testimonial">
-            <img
-              src="images/human.png"
-              alt="Coworker"
-              class="testimonial__avatar"
-            />
-            <div class="testimonial__speech-bubble">
-              <p>
-                Manager Koo Dong-wan changed and improved the communication
-                method of the Navien Mate app for the US to the MQTT protocol
-                communication method and successfully completed the app launch.
-              </p>
-              <p class="name">
-                <a href="https://www.kdnavien.co.kr">Mobile App Team</a>
-                / Navien Inc.
-              </p>
-            </div>
-          </div>
-          <div class="testimonial">
-            <div class="testimonial__speech-bubble">
-              <p>
-                From 2012 to 2013, Koo Dong-wan, a university student, completed
-                the development of a modeling tool in the Java language while
-                diligently conducting a research project on business software
-                integrated modeling methods.
-              </p>
-              <p class="name">
-                <a href="https://www.knu.ac.kr/"
-                  >Kyungpook National University (KNU)</a
-                >
-              </p>
-            </div>
-            <img
-              src="images/human.png"
-              alt="Coworker"
-              class="testimonial__avatar"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact" class="section">
-      <h2 class="contact__title">
-        If you have any additional questions about me, please email me.
-      </h2>
-      <h2 class="contact__email">k037686@gmail.com</h2>
-      <div class="contact__links">
-        <a href="https://github.com/aidenkoog" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/dongwan-koo-2041bb13b/ "
-          target="_blank"
-        >
-          <i class="fab fa-linkedin"></i>
-        </a>
-      </div>
-      <p class="contact__rights">2023 Aiden Koo - All rights reserved</p>
-    </section>
-
-    <!-- Arrow up -->
-    <button class="arrow-up">
-      <i class="fa-solid fa-arrow-up"></i>
+    <!-- Toggle Button -->
+    <button class="navbar__toggle-btn">
+      <i class="fa-solid fa-bars"></i>
     </button>
-  </body>
+  </nav>
+
+  <!-- Home -->
+  <section id="home">
+    <div class="home__container">
+      <img src="images/my_profile.png" alt="Aiden's profile photo" class="home__avatar" />
+      <h1 class="home__title">Hello, <br />I'm Aiden, Software Engineer</h1>
+      <h2 class="home__description">
+        Software expert capable of developing both web frontend and mobile
+        apps.
+      </h2>
+      <button class="home__contact">Contact Me</button>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section section__container">
+    <h1>About Me</h1>
+    <p>
+      I'm a responsible person. As a senior developer based on Android, Kotlin,
+      I have implemented various ui apps and services in Mobile, OTT, and IoT environments.
+      I think that development should be done to contribute to the company's goals rather than focusing on what an
+      individual wants,
+      so I always think about source code design to build a good structure and quick development at the start of a
+      project.
+      And I always go over new skills in order to respond promptly to changes in the development direction of a company
+      or team.
+      Currently, I've been developing Android, Cross-Platform Mobile App, and Web Front-End based on React and Flutter.
+    </p>
+    <div class="about__majors">
+      <div class="major">
+        <div class="major__icon">
+          <i class="fab fa-html5"></i>
+        </div>
+        <h2 class="major__title">Front-end</h2>
+        <div class="major__description">
+          HTML, CSS, Javascript, Typescript, Dart<br />Flutter, React, Web APIs
+        </div>
+      </div>
+      <div class="major">
+        <div class="major__icon">
+          <i class="fa-solid fa-mobile-screen"></i>
+        </div>
+        <h2 class="major__title">Mobile-Native</h2>
+        <div class="major__description">
+          Android<br />Kotlin, Java
+        </div>
+      </div>
+      <div class="major">
+        <div class="major__icon">
+          <i class="fa-solid fa-mobile"></i>
+        </div>
+        <h2 class="major__title">Mobile-Cross-Platform</h2>
+        <div class="major__description">
+          React Native, Flutter, <br />Javascript, Typescript, Dart
+        </div>
+      </div>
+    </div>
+    <div class="about__jobs">
+      <div class="job">
+        <i class="fa-solid fa-building"></i>
+        <div class="job__description">
+          <p class="job__name">
+            Currently working at Byclip Inc. as Software Engineer
+          </p>
+          <p class="job__period">2022 Sept - Until now</p>
+        </div>
+      </div>
+      <div class="job">
+        <i class="fa-regular fa-building"></i>
+        <div class="job__description">
+          <p class="job__name">Working at Navien Inc. as Software Engineer</p>
+          <p class="job__period">2021 Aug - 2022 Sept</p>
+        </div>
+      </div>
+      <div class="job">
+        <i class="fa-regular fa-building"></i>
+        <div class="job__description">
+          <p class="job__name">Working at Humax Inc. as Software Engineer</p>
+          <p class="job__period">2014 Jan - 2021 Jul</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <div class="section__container">
+      <h1>Skills</h1>
+      <h2>Skills & Attributes</h2>
+      <p>
+        I have an understanding of the entire software life cycle, am
+        interested in learning new things, and can develop in a team
+        environment or alone. They are good at planning and documenting, and
+        have a concept of punctuality in projects and group life. And I'm
+        always trying to manage my stress to complete the project. I think the
+        basis for everything is consistency and repetition. I try to have fun
+        with what I do through constant repetition.
+      </p>
+      <div class="skillset">
+        <div class="skillset__left">
+          <h3 class="skillset__title">Skills</h3>
+          <ul class="skillset__list">
+            <li><span>Android SDK</span></li>
+            <li><span>AOSP</span></li>
+            <li><span>Kotlin</span></li>
+            <li><span>Java</span></li>
+            <li><span>JetPack</span></li>
+            <li><span>Hilt / Dagger</span></li>
+            <li><span>MVVM</span></li>
+            <li><span>RxJava</span></li>
+            <li><span>Retrofit</span></li>
+            <li><span>Constraint Layout</span></li>
+            <li><span>Compose UI</span></li>
+            <li><span>Coroutine</span></li>
+            <li><span>React / React Native</span></li>
+            <li><span>Typescript</span></li>
+            <li><span>Javascript</span></li>
+            <li><span>Flutter</span></li>
+            <li><span>Dart</span></li>
+            <li><span>React Hook</span></li>
+            <li><span>Recoil</span></li>
+            <li><span>Axios</span></li>
+            <li><span>GetX</span></li>
+            <li><span>Dartz</span></li>
+            <li><span>Get It</span></li>
+            <li><span>HTML</span></li>
+            <li><span>CSS</span></li>
+          </ul>
+        </div>
+        <div class="skillset__right">
+          <div class="tools">
+            <h3 class="skillset__title">Tools</h3>
+            <ul class="tools__list">
+              <li><span>Android Studio</span></li>
+              <li><span>Visual Studio Code</span></li>
+              <li><span>Xcode</span></li>
+              <li><span>IntelliJ</span></li>
+              <li><span>Postman</span></li>
+              <li><span>MySQL</span></li>
+            </ul>
+          </div>
+          <div class="etc">
+            <h3 class="skillset__title">Etc</h3>
+            <ul class="etc__list">
+              <li><span>Git</span></li>
+              <li><span>GitHub / Bitbucket</span></li>
+              <li><span>Jira</span></li>
+              <li><span>Confluence</span></li>
+              <li><span>Slack</span></li>
+              <li><span>Zeplin</span></li>
+              <li><span>Pigma</span></li>
+              <li><span>Windows</span></li>
+              <li><span>MacOS</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work -->
+  <section id="work" class="section">
+    <div class="section__container">
+      <h1>My Work</h1>
+      <h3>Projects</h3>
+      <div class="work__categories">
+        <button class="category__btn selected" data-filter="*">
+          All<span class="category__count">6</span>
+        </button>
+        <button class="category__btn" data-filter="front-end">
+          React & Flutter Front-end<span class="category__count">3</span>
+        </button>
+        <button class="category__btn" data-filter="mobile-native">
+          Android-Native<span class="category__count">2</span>
+        </button>
+        <button class="category__btn" data-filter="mobile-cross-platform">
+          Mobile-Cross-Platform<span class="category__count">1</span>
+        </button>
+      </div>
+
+      <div class="work__projects">
+        <a href="https://github.com/aidenkoog/app-architecture/tree/master/flutter-app" class="project" target="_blank"
+          data-type="front-end">
+          <img src="images/projects/project.png" alt="MyProject" class="project__img" />
+          <div class="project__description">
+            <h3>Github</h3>
+            <span>Flutter Web Front-end</span>
+          </div>
+        </a>
+        <a href="https://github.com/aidenkoog/app-architecture/tree/master/reactjs" class="project" target="_blank"
+          data-type="front-end">
+          <img src="images/projects/project.png" alt="MyProject" class="project__img" />
+          <div class="project__description">
+            <h3>Github</h3>
+            <span>React Javascript Web Front-end</span>
+          </div>
+        </a>
+        <a href="https://github.com/aidenkoog/app-architecture/tree/master/reactjs-typescript" class="project"
+          target="_blank" data-type="front-end">
+          <img src="images/projects/project.png" alt="MyProject" class="project__img" />
+          <div class="project__description">
+            <h3>Github</h3>
+            <span>React Typescript Web Front-end</span>
+          </div>
+        </a>
+        <a href="https://github.com/aidenkoog/app-architecture/tree/master/android" class="project" target="_blank"
+          data-type="mobile-native">
+          <img src="images/projects/project.png" alt="MyProject" class="project__img" />
+          <div class="project__description">
+            <h3>Github</h3>
+            <span>Android Native Mobile App</span>
+          </div>
+        </a>
+        <a href="https://github.com/aidenkoog/app-architecture/tree/master/android_wear_os" class="project"
+          target="_blank" data-type="mobile-native">
+          <img src="images/projects/project.png" alt="MyProject" class="project__img" />
+          <div class="project__description">
+            <h3>Github</h3>
+            <span>Android Native Wear OS App</span>
+          </div>
+        </a>
+        <a href="https://github.com/aidenkoog/app-architecture/tree/master/react_native" class="project" target="_blank"
+          data-type="mobile-cross-platform">
+          <img src="images/projects/project.png" alt="MyProject" class="project__img" />
+          <div class="project__description">
+            <h3>Github</h3>
+            <span>React Native Mobile App</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tesimonials -->
+  <section id="testimonials" class="section">
+    <div class="section__container">
+      <h1>Award & Testimonials</h1>
+      <h3>See what they say about me</h3>
+      <div class="testimonials">
+        <div class="testimonial">
+          <img src="images/human.png" alt="Coworker" class="testimonial__avatar" />
+          <div class="testimonial__speech-bubble">
+            <p>
+              Manager Koo Dong-wan changed and improved the communication
+              method of the Navien Mate app for the US to the MQTT protocol
+              communication method and successfully completed the app launch.
+            </p>
+            <p class="name">
+              <a href="https://www.kdnavien.co.kr">Mobile App Team</a>
+              / Navien Inc.
+            </p>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial__speech-bubble">
+            <p>
+              From 2012 to 2013, Koo Dong-wan, a university student, completed
+              the development of a modeling tool in the Java language while
+              diligently conducting a research project on business software
+              integrated modeling methods.
+            </p>
+            <p class="name">
+              <a href="https://www.knu.ac.kr/">Kyungpook National University (KNU)</a>
+            </p>
+          </div>
+          <img src="images/human.png" alt="Coworker" class="testimonial__avatar" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2 class="contact__title">
+      If you have any additional questions about me, please email me.
+    </h2>
+    <h2 class="contact__email">k037686@gmail.com</h2>
+    <div class="contact__links">
+      <a href="https://github.com/aidenkoog" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/dongwan-koo-2041bb13b/ " target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+    <p class="contact__rights">2023 Aiden Koo - All rights reserved</p>
+  </section>
+
+  <!-- Arrow up -->
+  <button class="arrow-up">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+</body>
+
 </html>

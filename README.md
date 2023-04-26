@@ -45,6 +45,7 @@
 - 2023/02/24 : Applied dynamic selection about navigation bar.
 - 2023/03/11 : Added another styled home page source files.
 - 2023/03/11 : Deleted macOS related files (unused files) / Added .gitignore.
+- 2023/04/26 : Updated portfolio webpage content / files
 
 #### Link:
 

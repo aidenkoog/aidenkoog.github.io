@@ -46,6 +46,7 @@
 - 2023/03/11 : Added another styled home page source files.
 - 2023/03/11 : Deleted macOS related files (unused files) / Added .gitignore.
 - 2023/04/26 : Updated portfolio webpage content / files
+- 2023/04/29 : Updated resume links
 
 #### Link:
 
@@ -53,5 +54,5 @@ If you are interested in information about me or other activities, please access
 
 | **Page**        | **LINK**                                             |
 | --------------- | ---------------------------------------------------- |
-| **Github page** | [https://aidenkoog.github.io/]             |
+| **Github page** | [https://aidenkoog.github.io/]                       |
 | **LinkedIn**    | [https://www.linkedin.com/in/dongwan-koo-2041bb13b/] |

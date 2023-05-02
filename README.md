@@ -47,6 +47,7 @@
 - 2023/03/11 : Deleted macOS related files (unused files) / Added .gitignore.
 - 2023/04/26 : Updated portfolio webpage content / files
 - 2023/04/29 : Updated resume links
+- 2023/05/02 : Added new project links
 
 #### Link:
 

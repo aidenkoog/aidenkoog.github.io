@@ -48,6 +48,7 @@
 - 2023/04/26 : Updated portfolio webpage content / files
 - 2023/04/29 : Updated resume links
 - 2023/05/02 : Added new project links
+- 2023/05/17 : Updated my portfolio items
 
 #### Link:
 

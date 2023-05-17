@@ -49,6 +49,7 @@
 - 2023/04/29 : Updated resume links
 - 2023/05/02 : Added new project links
 - 2023/05/17 : Updated my portfolio items
+- 2023/05/17 : Fixed issue that my project items are NOT shown properly.
 
 #### Link:
 

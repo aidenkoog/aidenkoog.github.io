@@ -51,6 +51,7 @@
 - 2023/05/17 : Updated my portfolio items
 - 2023/05/17 : Fixed issue that my project items are NOT shown properly.
 - 2023/05/17 : Update my project item png images.
+- 2023/05/18 : Added Flutter new project description.
 
 #### Link:
 

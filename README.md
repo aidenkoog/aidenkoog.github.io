@@ -58,14 +58,10 @@
 #### Link:
 - My Projects
   - https://github.com/aidenkoog/awesome-hello-world 
-  - https://github.com/aidenkoog/awesome-react-web-page
-  - https://github.com/aidenkoog/awesome-algorithm-problem-solving 
-  - https://github.com/aidenkoog/awesome-flutter 
-  - https://github.com/aidenkoog/awesome-ios 
-  - https://github.com/aidenkoog/awesome-react-native 
   - https://github.com/aidenkoog/awesome-til-today-i-learned 
   - https://github.com/aidenkoog/awesome-programming-practice 
-  - https://github.com/aidenkoog/awesome-android
+  - https://github.com/aidenkoog/awesome-app-architecture
+  - https://github.com/aidenkoog/aidenkoog.github.io
     
 If you are interested in information about me or other activities, please access the link below.
 

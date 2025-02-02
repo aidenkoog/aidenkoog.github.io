@@ -55,6 +55,7 @@
 - 2023/05/23 : Added TIL (Today I Learn) project to my project list.
 - 2023/11/12 : Updated my career information.
 - 2024/02/10 : Added new repository for 2024 dev toy projects.
+- 2025/02/02 : Update profile image and message.
 
 #### Link:
 - My Projects
